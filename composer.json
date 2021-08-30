@@ -12,13 +12,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "LaravelAvantto\\LaravelAvanttoCharts\\": "src"
+            "LaravelAvantto\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelAvantto\\LaravelAvanttoCharts\\LaravelAvanttoChartsServiceProvider"
+                "LaravelAvantto\\LaravelAvanttoChartsServiceProvider"
             ]
         }
     },
