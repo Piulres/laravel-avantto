@@ -1,5 +1,5 @@
 {
-    "name": "laravel-avantto-charts",
+    "name": "laravel-avantto/laravel-avantto-charts",
     "description": "Create charts and reports from Laravel",
     "license": "MIT",
     "authors": [
@@ -12,15 +12,15 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "LaravelAvanttoCharts\\": "src"
+            "LaravelAvantto\\LaravelAvanttoCharts\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelAvanttoCharts\\LaravelAvanttoChartsServiceProvider"
+                "LaravelAvantto\\LaravelAvanttoCharts\\LaravelAvanttoChartsServiceProvider"
             ]
         }
     },
-    "version": "0.1.25"
+    "version": "1.0"
 }
